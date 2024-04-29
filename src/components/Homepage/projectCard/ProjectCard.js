@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import TechnologyName from "./TechnologyName";
 
 export default function ProjectCard() {
   return (
@@ -15,6 +16,12 @@ export default function ProjectCard() {
       </div>
       <div className="p-8">
         <h3>Project 1</h3>
+        <section>
+          <h4>Technology Used</h4>
+          <TechnologyName>React</TechnologyName>
+          <TechnologyName>Node.js</TechnologyName>
+          <TechnologyName>MongoDB</TechnologyName>
+        </section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           doloremque, quae, quia quidem, nesciunt autem quod quos dolorum

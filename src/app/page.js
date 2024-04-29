@@ -1,4 +1,4 @@
-import ProjectCard from "@/components/Homepage/ProjectCard";
+import ProjectCard from "@/components/Homepage/projectCard/ProjectCard";
 import Section from "@/components/UI/Section";
 
 export const metadata = {
